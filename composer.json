@@ -10,7 +10,14 @@
     "laravel"
   ],
   "require": {
+    "fideloper/proxy": "^4.4",
+    "fruitcake/laravel-cors": "^2.0",
+    "guzzlehttp/guzzle": "^7.0.1",
+    "laravel/tinker": "^2.5",
     "latusprojects/latus": "dev-develop"
+  },
+  "require-dev": {
+    "nunomaduro/collision": "^5.0"
   },
   "autoload": {
     "psr-4": {
