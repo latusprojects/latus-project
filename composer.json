@@ -1,0 +1,28 @@
+{
+  "name": "latusprojects/latus-project",
+  "type": "project",
+  "description": "The Latus CMF",
+  "keywords": [
+    "latus",
+    "cms",
+    "cmf",
+    "framework",
+    "laravel"
+  ],
+  "require": {
+    "latusprojects/latus": "dev-develop"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://latusprojects.repo.repman.io"
+    }
+  ]
+}
