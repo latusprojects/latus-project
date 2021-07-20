@@ -12,6 +12,11 @@
   "require": {
     "latusprojects/latus": "dev-develop"
   },
+  "autoload": {
+    "psr-4": {
+      "App\\": "laravel-depend/"
+    }
+  },
   "scripts": {
     "post-autoload-dump": [
       "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
