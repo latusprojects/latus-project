@@ -67,8 +67,7 @@ return [
 
     'providers' => [
         'users' => [
-            'driver' => 'eloquent',
-            'model' => \Latus\Permissions\Models\User::class,
+            'driver' => 'service',
         ],
 
         // 'users' => [
