@@ -14,7 +14,7 @@
     "fruitcake/laravel-cors": "^2.0",
     "guzzlehttp/guzzle": "^7.0.1",
     "laravel/tinker": "^2.5",
-    "latusprojects/latus": "^0.1.8"
+    "latusprojects/latus": "^0.1.27"
   },
   "require-dev": {
     "nunomaduro/collision": "^5.0"
