@@ -12,7 +12,6 @@ $bootstrapper = new Bootstrapper(Paths::basePath());
 $bootstrapper->addBaseProviders([
     SettingsServiceProvider::class,
     UIServiceProvider::class,
-    LatusServiceProvider::class,
     InstallerServiceProvider::class
 ]);
 
