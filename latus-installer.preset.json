@@ -1,0 +1,21 @@
+{
+  "database": {
+    "host": "localhost",
+    "username": "root",
+    "database": "latus",
+    "password": ""
+  },
+  "user": {
+    "username": "admin",
+    "email": "",
+    "password": ""
+  },
+  "app": {
+    "name": "",
+    "url": "https://"
+  },
+  "theme": {
+    "name": "latusprojects/latus-2021-theme",
+    "version": "0.1.5"
+  }
+}
