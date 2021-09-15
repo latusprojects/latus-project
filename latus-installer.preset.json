@@ -14,13 +14,15 @@
     "name": "",
     "url": "https://"
   },
-  "themes": {
-    "name": "latusprojects/latus-2021-theme",
-    "version": "0.1.5",
-    "active": {
-      "Latus\\Latus\\Modules\\Contracts\\AdminModule": "Latus\\Theme2021\\UI\\Modules\\Admin\\AdminModule",
-      "Latus\\Latus\\Modules\\Contracts\\WebModule": "Latus\\Theme2021\\UI\\Modules\\Web\\WebModule",
-      "Latus\\Latus\\Modules\\Contracts\\AuthModule": "Latus\\Theme2021\\UI\\Modules\\Auth\\AuthModule"
+  "themes": [
+    {
+      "name": "latusprojects/latus-2021-theme",
+      "version": "dev-develop",
+      "active": {
+        "Latus\\Latus\\Modules\\Contracts\\AdminModule": "Latus\\Theme2021\\UI\\Modules\\Admin\\AdminModule",
+        "Latus\\Latus\\Modules\\Contracts\\WebModule": "Latus\\Theme2021\\UI\\Modules\\Web\\WebModule",
+        "Latus\\Latus\\Modules\\Contracts\\AuthModule": "Latus\\Theme2021\\UI\\Modules\\Auth\\AuthModule"
+      }
     }
-  }
+  ]
 }
